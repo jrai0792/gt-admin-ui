@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+}
+
+.header {
+  background-color: #ddd;
+  text-align: center;
+}
+
+.header h1 {
+  padding: 20px;
+}
+
+.main-container {
+  width: 90%;
+  margin: auto;
+}
+
+.search-container {
+  margin: 35px 0;
+}
+
+.search-bar{
+  width: 100%;
+  padding: 10px;
+  color: #444;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border: 1px solid #444;
+}
+
+table {
+  border-spacing: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd; 
+}
+
+td, th {
+  text-align: left;
+  padding: 20px 0;
+}
+
